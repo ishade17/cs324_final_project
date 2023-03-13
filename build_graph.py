@@ -4,17 +4,12 @@ from pyvis.network import Network
 import networkx as nx
 from collections import Counter
 
+data = json.load(open("./network_data_standard.json"))
 
-def query_preprocessing(query):
-    query = query.lower()
-    query.replace("  ", " ")
-    return query
-
-def networkx_graph(query):
+def networkx_graph():
     """
     Create graph with whole data. No positions specified.
     """
-    data = json.load(open("./network_data_clean.json"))
 
     # data ={
     #     "Mart\u00edn Abadi": [("Stanford University", "PhD student"), ("Google", "Core Developer for Tensorflow"), ("Coll\u00e8ge de France", "Temporary Professor for Computer Security"),("University of Oxford", "Rhodes Scholar")],
@@ -22,36 +17,47 @@ def networkx_graph(query):
     #     "Shona Brown": [("University of Oxford", "Rhodes Scholar"), ("Stanford University", "Ph.D student and postdoctoral work"), ("Google", "Senior Vice President"), ("Atlassian"," Board Member")]
     # }
 
-    query = query_preprocessing(query)
     G = nx.DiGraph()
     connection_counter = Counter()
     all_nodes = []
-    highlighted_nodes = []
-    relevant_people = []
+
     for person, info in data.items():
         place_nodes = [e[0].lower() for e in info]
-        n = len(place_nodes)
         G.add_nodes_from(place_nodes)
 
         all_nodes.extend(place_nodes)
-        if query != "" and query in place_nodes:
-            relevant_people.append(person)
-            highlighted_nodes.extend(place_nodes)
 
-        for i in range(n - 1):
+        for i in range(len(place_nodes)-1):
             connection = (place_nodes[i], place_nodes[i + 1])
             connection_counter[connection] += 1
-            G.add_edge(place_nodes[i], place_nodes[i + 1])
-
-        # for i in range(n - 1):
+            G.add_edge(place_nodes[i], place_nodes[i + 1], color=('red', 'blue'))
 
     all_nodes = set(all_nodes)
-    highlighted_nodes = set(highlighted_nodes)
-    print(highlighted_nodes)
 
-    return G, all_nodes, highlighted_nodes, relevant_people, connection_counter
+    return G, all_nodes, connection_counter
 
-def color_nodes(net, query, highlighted_nodes, in_network=False):
+def find_relevant_nodes(query):
+    """
+    Find all nodes that are connected to the query node.
+    """
+    relevant_people = []
+    highlighted_out_nodes = []
+    highlighted_in_nodes = []
+    for person, info in data.items():
+        place_nodes = [e[0].lower() for e in info]
+
+        if query != "" and query in place_nodes:
+            split_index = place_nodes.index(query)
+            relevant_people.append(person)
+            highlighted_in_nodes.extend(place_nodes[:split_index])
+            highlighted_out_nodes.extend(place_nodes[split_index+1:])
+    
+    highlighted_in_nodes = set(highlighted_in_nodes)
+    highlighted_out_nodes = set(highlighted_out_nodes)
+    return relevant_people, highlighted_in_nodes, highlighted_out_nodes
+
+
+def color_nodes(net, query, highlighted_in_nodes, highlighted_out_nodes, in_network=False):
     if in_network:
         # highlighting relevant nodes
         for node in net.nodes:
@@ -59,8 +65,10 @@ def color_nodes(net, query, highlighted_nodes, in_network=False):
                 node['shape'] = 'star'
                 node['color'] = 'red'
                 node['size'] = 50
-            if node['id'] in highlighted_nodes:
+            if node['id'] in highlighted_in_nodes:
                 node['color'] = 'red'
+            elif node['id'] in highlighted_out_nodes:
+                node['color'] = 'blue'
             else:
                 node['color'] = "#ddddff"
     else:
@@ -70,16 +78,16 @@ def color_nodes(net, query, highlighted_nodes, in_network=False):
     return net
 
 
-def pyvis_graph(query):
+def pyvis_graph():
     # Take Networkx graph and translate it to a PyVis graph format
 
-    G, all_nodes, highlighted_nodes, relevant_people, connection_counter = networkx_graph(query)
+    G, _, connection_counter = networkx_graph()
 
     net = Network(directed=True, height='600px', width="800px", bgcolor='#222222', font_color='white')
+    net.from_nx(G)
     net.repulsion(node_distance=420, central_gravity=0.5,
                   spring_length=110, spring_strength=0.10,
                   damping=0.95)
-    net.from_nx(G)
 
     # adding edge thickness and labels based on number of people with connection
     for edge in net.edges:
@@ -91,14 +99,3 @@ def pyvis_graph(query):
         edge['title'] = f"{source_id} to {target_id}: {weight} people"
 
     return net
-
-#
-# def final_graph(query):
-
-#
-#     # query = "Stanford University"
-#     G, all_nodes, highlighted_nodes, relevant_people, connection_counter = networkx_graph(query, data)
-#     net = highlighted_graph(query, G, all_nodes, highlighted_nodes, connection_counter)
-#     # net.show("my_network.html", notebook=False)
-#
-#     return net, relevant_people, all_nodes
