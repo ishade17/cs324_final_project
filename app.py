@@ -3,7 +3,9 @@ import build_graph
 import streamlit.components.v1 as components
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
+#selena's key: "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"
+#hanna's key: "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"
 
 def load_UI():
     st.title('Graph Visualization of Career Paths')
@@ -43,18 +45,23 @@ def load_search(query, net, node_counter, connection_counter):
             components.html(HtmlFile.read(), height=500)
 
         # find most common before & after nodes
-        most_common_pre_node, most_common_post_node, _, _, percent_pre, percent_post = build_graph.most_common_path(net, query, node_counter, connection_counter)
 
-        query = query.capitalize()
-        prompt = f"Give 3 bullet points of advice on how to get to {query}, given that the most common working experience before this is {most_common_pre_node}."
-        generation = call_chatgpt(prompt)
-        st.subheader(f"Advice on getting to {query}:")
-        st.write(f"The most common experience before {query} is {most_common_pre_node.capitalize()}, with {round(percent_pre, 3)*100}% of {query} coming from {most_common_pre_node.capitalize()} directly. After {query}, {round(percent_post, 3)*100}% go to {most_common_post_node.capitalize()}.")
-        st.write(f"\nHere's some advice for getting to {query}:\n")
-        st.write(generation)
 
         if len(relevant_people) != 0:
-            st.subheader(f"Notable people at {query}:")
+            most_common_pre_node, most_common_post_node, _, _, percent_pre, percent_post = build_graph.most_common_path(
+                net, query, node_counter, connection_counter)
+
+            query = query.title()
+            prompt = f"Give 3 bullet points of advice on how to get to {query}, given that the most common working experience before this is {most_common_pre_node}."
+            generation = call_chatgpt(prompt)
+            st.subheader(f"Advice on getting to {query}:")
+            st.write(
+                f"The most common experience before {query} is {most_common_pre_node.title()}, with {round(percent_pre, 3) * 100}% of {query} coming from {most_common_pre_node.title()} directly. After {query}, {round(percent_post, 3) * 100}% go to {most_common_post_node.capitalize()}.")
+            st.write(f"\nHere's some advice for getting to {query}:\n")
+            st.write(generation)
+
+
+            st.subheader(f"Notable people who've been at {query}:")
             for p in relevant_people:
                 st.markdown("- " + p)
         

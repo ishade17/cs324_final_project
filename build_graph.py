@@ -5,7 +5,7 @@ import networkx as nx
 from collections import Counter
 
 data = json.load(open("./network_data_standard.json"))
-
+#
 # data = {
 #     "Martn Abadi": [("Stanford University", "PhD student"), ("Google", "Core Developer for Tensorflow"),
 #                           ("College de France", "Temporary Professor for Computer Security"),
@@ -73,31 +73,25 @@ def find_relevant_nodes(query):
 
 
 def color_nodes_edges(net, query, highlighted_in_nodes, highlighted_out_nodes, in_network=False):
-    print("coloring nodes....")
-    print("query: ", query)
     if in_network:
         # highlighting relevant nodes
         for node in net.nodes:
             if query in node['id']:
                 node['color'] = 'yellow'
                 node['shape'] = 'star'
-                node['size'] = 50
 
             elif node['id'] in highlighted_in_nodes:
                 node['color'] = 'red'
                 node['shape'] = 'dot'
-                node['size'] = 1 # HANNA ATTN
 
             elif node['id'] in highlighted_out_nodes:
                 node['color'] = 'blue'
                 node['shape'] = 'dot'
-                node['size'] = 1 # HANNA ATTN
 
             else:
                 node['color'] = "#ddddff"
                 node['shape'] = 'dot'
-                node['size'] = 1 # HANNA ATTN
-        
+
         # highlighting relevant edges
         for edge in net.edges:
             source_id = edge['from']
@@ -112,12 +106,10 @@ def color_nodes_edges(net, query, highlighted_in_nodes, highlighted_out_nodes, i
         for node in net.nodes:
             node['color'] = "#ddddff"
             node['shape'] = 'dot'
-            node['size'] = 1
 
     return net
 
 def most_common_path(net, query, node_counter, connection_counter):
-    adj_list = net.get_adj_list()
     most_common_post = 0
     most_common_pre = 0
     most_common_pre_node = ""
@@ -127,17 +119,18 @@ def most_common_path(net, query, node_counter, connection_counter):
         if query in node['id']:
             queried_node = node['id']
             break
-    for adj_node in adj_list[queried_node]:
-        edge_val = connection_counter[(queried_node, adj_node)]
-        for edge in net.edges:
-            if edge['from'] == queried_node and edge['to'] == adj_node:
-                if edge_val > most_common_post:
-                    most_common_post = edge_val
-                    most_common_post_node = adj_node
-            elif edge['to'] == queried_node and edge['from'] == adj_node:
-                if edge_val > most_common_pre:
-                    most_common_pre = edge_val
-                    most_common_pre_node = adj_node
+
+    for edge in net.edges:
+        edge_val = connection_counter[(edge['from'], edge['to'])]
+        if edge['from'] == queried_node and  edge['to']!= queried_node:
+            if edge_val > most_common_post:
+                most_common_post = edge_val
+                most_common_post_node = edge['to']
+        elif edge['from'] != queried_node and edge['to'] == queried_node:
+            if edge_val > most_common_pre:
+                most_common_pre = edge_val
+                most_common_pre_node = edge['from']
+
     percent_post = most_common_post / node_counter[queried_node]
     percent_pre = most_common_pre / node_counter[queried_node]
     return most_common_pre_node, most_common_post_node, most_common_pre, most_common_post, percent_pre, percent_post
@@ -165,7 +158,7 @@ def pyvis_graph():
 
     for node in net.nodes:
         num_people = node_counter[node['id']]
-        # node['size'] = num_people * 0.5 + 1 # set node size, HANNA ATTN
+        node['size'] = num_people * 0.5 + 1 # set node size
         node['title'] = f"People at {node['id']}: {num_people}"
         
     return net, node_counter, connection_counter
