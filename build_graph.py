@@ -154,11 +154,12 @@ def pyvis_graph():
         source_id = edge['from']
         target_id = edge['to']
         weight = connection_counter[(source_id, target_id)]
-        edge['title'] = f"{source_id} to {target_id}: {weight} people"
+        edge['title'] = f"{source_id.title()} to {target_id.title()}: {weight} people"
 
     for node in net.nodes:
         num_people = node_counter[node['id']]
         node['size'] = num_people * 0.5 + 1 # set node size
-        node['title'] = f"People at {node['id']}: {num_people}"
+        node['title'] = f"People at {node['id'].title()}: {num_people}"
         
     return net, node_counter, connection_counter
+
