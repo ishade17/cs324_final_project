@@ -6,8 +6,8 @@ def load_UI():
     st.title('Graph Visualization of Career Paths')
 
 @st.cache_data
-def construct_graph():
-    net = build_graph.pyvis_graph()
+def construct_graph(query):
+    net = build_graph.pyvis_graph(query)
     return net
 
 def query_preprocessing(query):
@@ -15,14 +15,13 @@ def query_preprocessing(query):
     query.replace("  ", " ")
     return query
 
-def load_search(net):
-    query = st.text_input('Search by univerity or company name')
-    query = query_preprocessing(query)
-    relevant_people, highlighted_in_nodes, higlighted_out_nodes = build_graph.find_relevant_nodes(query)
+def load_search(query, net):
+    _, relevant_people, highlighted_in_nodes, higlighted_out_nodes = build_graph.find_relevant_nodes(query)
     all_nodes = set(net.get_nodes())
     if query != "":
         if query in all_nodes:
-            st.write(f"Career paths containing {query}: {len(relevant_people)}. Relevant paths in red.")
+            st.subheader(f"Career paths containing {query}: {len(relevant_people)}")
+            st.write("In-paths in red. Out-paths in blue.")
             net = build_graph.color_nodes(net,  query, highlighted_in_nodes, higlighted_out_nodes, in_network=True)
             html = net.save_graph("career_graph.html")
         else:
@@ -34,11 +33,13 @@ def load_search(net):
             components.html(HtmlFile.read(), height=435)
 
         if len(relevant_people) != 0:
-            st.write("Most notable people at ", query, ":")
+            st.subheader(f"Most notable people at {query}:")
             for p in relevant_people:
                 st.markdown("- " + p)
 
 if __name__ == '__main__':
-    net = construct_graph()
     load_UI()
-    load_search(net)
+    query = st.text_input('Search by univerity or company name')
+    query = query_preprocessing(query)
+    net = construct_graph(query)
+    load_search(query,net)
