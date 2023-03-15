@@ -1,0 +1,454 @@
+﻿person_name,wiki_link,company,True Positive,False Positive,False Negative,Precision,Recall,F-1 Score
+Martin Abadi,https://en.wikipedia.org/wiki/Mart%C3%ADn_Abadi,Google,3,1,0,0.75,1.00,0.86
+Anurag Acharya,https://en.wikipedia.org/wiki/Anurag_Acharya,Google,2,0,0,1.00,1.00,1.00
+Charlie Ayers,https://en.wikipedia.org/wiki/Charlie_Ayers,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Bunmi Banjo,https://en.wikipedia.org/wiki/Bunmi_Banjo,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Hans Peter Brondmo,https://en.wikipedia.org/wiki/Hans_Peter_Brondmo,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Shona Brown,https://en.wikipedia.org/wiki/Shona_Brown,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Jewel Burks Solomon,https://en.wikipedia.org/wiki/Jewel_Burks_Solomon,Google,5,0,1,1.00,0.83,0.91
+Chen Qiufan,https://en.wikipedia.org/wiki/Chen_Qiufan,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Andrew Conrad,https://en.wikipedia.org/wiki/Andrew_Conrad,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Manu Cornet,https://en.wikipedia.org/wiki/Manu_Cornet,Google,2,1,2,0.67,0.50,0.57
+Marian Croak,https://en.wikipedia.org/wiki/Marian_Croak,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Thomas Dean (computer scientist),https://en.wikipedia.org/wiki/Thomas_Dean_(computer_scientist),Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Mikey Dickerson,https://en.wikipedia.org/wiki/Mikey_Dickerson,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Dmitri Dolgov,https://en.wikipedia.org/wiki/Dmitri_Dolgov,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Jennifer Dulski,https://en.wikipedia.org/wiki/Jennifer_Dulski,Google,10,0,0,1.00,1.00,1.00
+Juliet Ehimuan,https://en.wikipedia.org/wiki/Juliet_Ehimuan,Google,5,0,3,1.00,0.63,0.77
+H√©ctor Garc√≠a-Molina,https://en.wikipedia.org/wiki/H%C3%A9ctor_Garc%C3%ADa-Molina,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Chelsey Glasson,https://en.wikipedia.org/wiki/Chelsey_Glasson,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Al Gore,https://en.wikipedia.org/wiki/Al_Gore,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Tristan Harris,https://en.wikipedia.org/wiki/Tristan_Harris,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Phil Harrison,https://en.wikipedia.org/wiki/Phil_Harrison,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Monika Henzinger,https://en.wikipedia.org/wiki/Monika_Henzinger,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Tara Hernandez,https://en.wikipedia.org/wiki/Tara_Hernandez,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Ian Hickson,https://en.wikipedia.org/wiki/Ian_Hickson,Google,4,0,0,1.00,1.00,1.00
+Damon Horowitz,https://en.wikipedia.org/wiki/Damon_Horowitz,Google,14,0,0,1.00,1.00,1.00
+Colin Huang,https://en.wikipedia.org/wiki/Colin_Huang,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Nigel Huddleston,https://en.wikipedia.org/wiki/Nigel_Huddleston,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Khaled Koubaa,https://en.wikipedia.org/wiki/Khaled_Koubaa,Google,10,0,3,1.00,0.77,0.87
+Cassie Kozyrkov,https://en.wikipedia.org/wiki/Cassie_Kozyrkov,Google,4,0,0,1.00,1.00,1.00
+David Krane,https://en.wikipedia.org/wiki/David_Krane,Google,4,0,0,1.00,1.00,1.00
+Diane Lambert,https://en.wikipedia.org/wiki/Diane_Lambert,Google,4,0,1,1.00,0.80,0.89
+Quoc Viet Le,https://en.wikipedia.org/wiki/Quoc_Viet_Le,Google,3,1,0,0.75,1.00,0.86
+Ronald Loui,https://en.wikipedia.org/wiki/Ronald_Loui,Google,6,0,0,1.00,1.00,1.00
+Kevin McCurley (cryptographer),https://en.wikipedia.org/wiki/Kevin_McCurley_(cryptographer),Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Tom√°≈° Mikolov,https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Mikolov,Google,7,0,0,1.00,1.00,1.00
+Rajeev Motwani,https://en.wikipedia.org/wiki/Rajeev_Motwani,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Alan Noble (entrepreneur),https://en.wikipedia.org/wiki/Alan_Noble_(entrepreneur),Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Jade Raymond,https://en.wikipedia.org/wiki/Jade_Raymond,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Jonathan Rosenberg (technologist),https://en.wikipedia.org/wiki/Jonathan_Rosenberg_(technologist),Google,6,0,0,1.00,1.00,1.00
+Stefan Schaal,https://en.wikipedia.org/wiki/Stefan_Schaal,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Avni Shah,https://en.wikipedia.org/wiki/Avni_Shah,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Deena Shakir,https://en.wikipedia.org/wiki/Deena_Shakir,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Jason Shellen,https://en.wikipedia.org/wiki/Jason_Shellen,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Megan Smith,https://en.wikipedia.org/wiki/Megan_Smith,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Richard Sproat,https://en.wikipedia.org/wiki/Richard_Sproat,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Claire Stapleton,https://en.wikipedia.org/wiki/Claire_Stapleton,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Seth Stephens-Davidowitz,https://en.wikipedia.org/wiki/Seth_Stephens-Davidowitz,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Su Hua,https://en.wikipedia.org/wiki/Su_Hua,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Tang Xing,https://en.wikipedia.org/wiki/Tang_Xing,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Miles Taylor (security expert),https://en.wikipedia.org/wiki/Miles_Taylor_(security_expert),Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Wietse Venema,https://en.wikipedia.org/wiki/Wietse_Venema,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Roy Want,https://en.wikipedia.org/wiki/Roy_Want,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Alicia Nicki Washington,https://en.wikipedia.org/wiki/Alicia_Nicki_Washington,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Anna Wikland,https://en.wikipedia.org/wiki/Anna_Wikland,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Nicole Wong,https://en.wikipedia.org/wiki/Nicole_Wong,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Roni Zeiger,https://en.wikipedia.org/wiki/Roni_Zeiger,Google,,,,#DIV/0!,#DIV/0!,#DIV/0!
+List of former employees of Goldman Sachs,https://en.wikipedia.org/wiki/List_of_former_employees_of_Goldman_Sachs,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Jacob Aarup-Andersen,https://en.wikipedia.org/wiki/Jacob_Aarup-Andersen,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Guy Adami,https://en.wikipedia.org/wiki/Guy_Adami,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Sergey Aleynikov,https://en.wikipedia.org/wiki/Sergey_Aleynikov,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Marco Alver√†,https://en.wikipedia.org/wiki/Marco_Alver%C3%A0,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Bernard W. Aronson,https://en.wikipedia.org/wiki/Bernard_W._Aronson,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Erik √Ösbrink,https://en.wikipedia.org/wiki/Erik_%C3%85sbrink,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Mehdi Ashraphijuo,https://en.wikipedia.org/wiki/Mehdi_Ashraphijuo,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Cliff Asness,https://en.wikipedia.org/wiki/Cliff_Asness,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+James Attwood,https://en.wikipedia.org/wiki/James_Attwood,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Ziad Bahaa-Eldin,https://en.wikipedia.org/wiki/Ziad_Bahaa-Eldin,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Steve Bannon,https://en.wikipedia.org/wiki/Steve_Bannon,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Jos√© Manuel Barroso,https://en.wikipedia.org/wiki/Jos%C3%A9_Manuel_Barroso,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Christine Beauchamp,https://en.wikipedia.org/wiki/Christine_Beauchamp,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Greg M. Behrman,https://en.wikipedia.org/wiki/Greg_M._Behrman,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Alessandro Benetton,https://en.wikipedia.org/wiki/Alessandro_Benetton,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Bernd Bergmair,https://en.wikipedia.org/wiki/Bernd_Bergmair,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Gina Bianchini,https://en.wikipedia.org/wiki/Gina_Bianchini,Goldman Sachs,,,,#DIV/0!,#DIV/0!,#DIV/0!
+Josh Birnbaum,https://en.wikipedia.org/wiki/Josh_Birnbaum,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Fischer Black,https://en.wikipedia.org/wiki/Fischer_Black,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Joshua Bolten,https://en.wikipedia.org/wiki/Joshua_Bolten,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Alexis Bonnet,https://en.wikipedia.org/wiki/Alexis_Bonnet,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Ant√≥nio Borges,https://en.wikipedia.org/wiki/Ant%C3%B3nio_Borges,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Edward Botwinick,https://en.wikipedia.org/wiki/Edward_Botwinick,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Diethart Breipohl,https://en.wikipedia.org/wiki/Diethart_Breipohl,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Ben Broadbent,https://en.wikipedia.org/wiki/Ben_Broadbent,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Eric Brodkowitz,https://en.wikipedia.org/wiki/Eric_Brodkowitz,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+John H. Bryan,https://en.wikipedia.org/wiki/John_H._Bryan,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Willem Buiter,https://en.wikipedia.org/wiki/Willem_Buiter,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Erin Burnett,https://en.wikipedia.org/wiki/Erin_Burnett,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Mark Carhart,https://en.wikipedia.org/wiki/Mark_Carhart,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Mark Carney,https://en.wikipedia.org/wiki/Mark_Carney,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Jennifer Carpenter (academic),https://en.wikipedia.org/wiki/Jennifer_Carpenter_(academic),Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Waddill Catchings,https://en.wikipedia.org/wiki/Waddill_Catchings,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+R. Martin Chavez,https://en.wikipedia.org/wiki/R._Martin_Chavez,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Carl Chien,https://en.wikipedia.org/wiki/Carl_Chien,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Efthymios Christodoulou,https://en.wikipedia.org/wiki/Efthymios_Christodoulou,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Petros Christodoulou,https://en.wikipedia.org/wiki/Petros_Christodoulou,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Jordan Cila,https://en.wikipedia.org/wiki/Jordan_Cila,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Abby Joseph Cohen,https://en.wikipedia.org/wiki/Abby_Joseph_Cohen,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Michael Cohrs,https://en.wikipedia.org/wiki/Michael_Cohrs,Goldman Sachs,,,,,#DIV/0!,#DIV/0!
+Colin Coleman,https://en.wikipedia.org/wiki/Colin_Coleman,Goldman Sachs,,,,,,
+Peter R. Coneway,https://en.wikipedia.org/wiki/Peter_R._Coneway,Goldman Sachs,,,,,,
+Karen Cook (banker),https://en.wikipedia.org/wiki/Karen_Cook_(banker),Goldman Sachs,,,,,,
+Louise Cooper (financial analyst),https://en.wikipedia.org/wiki/Louise_Cooper_(financial_analyst),Goldman Sachs,,,,,,
+Leon Cooperman,https://en.wikipedia.org/wiki/Leon_Cooperman,Goldman Sachs,,,,,,
+Carlos Cordeiro,https://en.wikipedia.org/wiki/Carlos_Cordeiro,Goldman Sachs,,,,,,
+E. Gerald Corrigan,https://en.wikipedia.org/wiki/E._Gerald_Corrigan,Goldman Sachs,,,,,,
+Claudio Costamagna,https://en.wikipedia.org/wiki/Claudio_Costamagna,Goldman Sachs,,,,,,
+Jim Cramer,https://en.wikipedia.org/wiki/Jim_Cramer,Goldman Sachs,,,,,,
+Charles de Croisset,https://en.wikipedia.org/wiki/Charles_de_Croisset,Goldman Sachs,,,,,,
+Heidi Cruz,https://en.wikipedia.org/wiki/Heidi_Cruz,Goldman Sachs,,,,,,
+Lex van Dam,https://en.wikipedia.org/wiki/Lex_van_Dam,Goldman Sachs,,,,,,
+Nancy Davis (businesswoman),https://en.wikipedia.org/wiki/Nancy_Davis_(businesswoman),Goldman Sachs,,,,,,
+Guillermo de la Dehesa,https://en.wikipedia.org/wiki/Guillermo_de_la_Dehesa,Goldman Sachs,,,,,,
+Emanuel Derman,https://en.wikipedia.org/wiki/Emanuel_Derman,Goldman Sachs,,,,,,
+Adriana Diaz (journalist),https://en.wikipedia.org/wiki/Adriana_Diaz_(journalist),Goldman Sachs,,,,,,
+Vladim√≠r Dlouh√Ω (politician),https://en.wikipedia.org/wiki/Vladim%C3%ADr_Dlouh%C3%BD_(politician),Goldman Sachs,,,,,,
+Kirill Dmitriev,https://en.wikipedia.org/wiki/Kirill_Dmitriev,Goldman Sachs,,,,,,
+Jim Donovan (banker),https://en.wikipedia.org/wiki/Jim_Donovan_(banker),Goldman Sachs,,,,,,
+Mario Draghi,https://en.wikipedia.org/wiki/Mario_Draghi,Goldman Sachs,,,,,,
+Michael Dubno,https://en.wikipedia.org/wiki/Michael_Dubno,Goldman Sachs,,,,,,
+William C. Dudley,https://en.wikipedia.org/wiki/William_C._Dudley,Goldman Sachs,,,,,,
+Isabelle Ealet,https://en.wikipedia.org/wiki/Isabelle_Ealet,Goldman Sachs,,,,,,
+Fred Ehrsam,https://en.wikipedia.org/wiki/Fred_Ehrsam,Goldman Sachs,,,,,,
+Rahm Emanuel,https://en.wikipedia.org/wiki/Rahm_Emanuel,Goldman Sachs,,,,,,
+Okechukwu Enelamah,https://en.wikipedia.org/wiki/Okechukwu_Enelamah,Goldman Sachs,,,,,,
+J. Michael Evans,https://en.wikipedia.org/wiki/J._Michael_Evans,Goldman Sachs,,,,,,
+Jonathan Faiman,https://en.wikipedia.org/wiki/Jonathan_Faiman,Goldman Sachs,,,,,,
+√ìscar Fanjul,https://en.wikipedia.org/wiki/%C3%93scar_Fanjul,Goldman Sachs,,,,,,
+Fang Fenglei,https://en.wikipedia.org/wiki/Fang_Fenglei,Goldman Sachs,,,,,,
+Lawton Fitt,https://en.wikipedia.org/wiki/Lawton_Fitt,Goldman Sachs,,,,,,
+J. Christopher Flowers,https://en.wikipedia.org/wiki/J._Christopher_Flowers,Goldman Sachs,,,,,,
+Randall M. Fort,https://en.wikipedia.org/wiki/Randall_M._Fort,Goldman Sachs,,,,,,
+Helena Foulkes,https://en.wikipedia.org/wiki/Helena_Foulkes,Goldman Sachs,,,,,,
+Camille Fournier,https://en.wikipedia.org/wiki/Camille_Fournier,Goldman Sachs,,,,,,
+Henry H. Fowler,https://en.wikipedia.org/wiki/Henry_H._Fowler,Goldman Sachs,,,,,,
+Sarah Friar,https://en.wikipedia.org/wiki/Sarah_Friar,Goldman Sachs,,,,,,
+Prince Friso of Orange-Nassau,https://en.wikipedia.org/wiki/Prince_Friso_of_Orange-Nassau,Goldman Sachs,,,,,,
+Steven Fulop,https://en.wikipedia.org/wiki/Steven_Fulop,Goldman Sachs,,,,,,
+Antonio Garc√≠a Mart√≠nez (author),https://en.wikipedia.org/wiki/Antonio_Garc%C3%ADa_Mart%C3%ADnez_(author),Goldman Sachs,,,,,,
+Gary Gensler,https://en.wikipedia.org/wiki/Gary_Gensler,Goldman Sachs,,,,,,
+Dick Gephardt,https://en.wikipedia.org/wiki/Dick_Gephardt,Goldman Sachs,,,,,,
+Mark D. Gilbert,https://en.wikipedia.org/wiki/Mark_D._Gilbert,Goldman Sachs,,,,,,
+Jason Gissing,https://en.wikipedia.org/wiki/Jason_Gissing,Goldman Sachs,,,,,,
+Alexis Glick,https://en.wikipedia.org/wiki/Alexis_Glick,Goldman Sachs,,,,,,
+Richard Gnodde,https://en.wikipedia.org/wiki/Richard_Gnodde,Goldman Sachs,,,,,,
+Henry Goldman,https://en.wikipedia.org/wiki/Henry_Goldman,Goldman Sachs,,,,,,
+Masha Gordon,https://en.wikipedia.org/wiki/Masha_Gordon,Goldman Sachs,,,,,,
+Noam Gottesman,https://en.wikipedia.org/wiki/Noam_Gottesman,Goldman Sachs,,,,,,
+Samantha Greenberg,https://en.wikipedia.org/wiki/Samantha_Greenberg,Goldman Sachs,,,,,,
+Judd Gregg,https://en.wikipedia.org/wiki/Judd_Gregg,Goldman Sachs,,,,,,
+"Brian Griffiths, Baron Griffiths of Fforestfach","https://en.wikipedia.org/wiki/Brian_Griffiths,_Baron_Griffiths_of_Fforestfach",Goldman Sachs,,,,,,
+Chris Grigg,https://en.wikipedia.org/wiki/Chris_Grigg,Goldman Sachs,,,,,,
+Anthony Gutman,https://en.wikipedia.org/wiki/Anthony_Gutman,Goldman Sachs,,,,,,
+Sam Gyimah,https://en.wikipedia.org/wiki/Sam_Gyimah,Goldman Sachs,,,,,,
+Charlie Haas,https://en.wikipedia.org/wiki/Charlie_Haas,Goldman Sachs,,,,,,
+Victor Halberstadt,https://en.wikipedia.org/wiki/Victor_Halberstadt,Goldman Sachs,,,,,,
+Robert Harrison (financier),https://en.wikipedia.org/wiki/Robert_Harrison_(financier),Goldman Sachs,,,,,,
+Jan Hatzius,https://en.wikipedia.org/wiki/Jan_Hatzius,Goldman Sachs,,,,,,
+Stephen Hawinkels,https://en.wikipedia.org/wiki/Stephen_Hawinkels,Goldman Sachs,,,,,,
+Jason Healey,https://en.wikipedia.org/wiki/Jason_Healey,Goldman Sachs,,,,,,
+Thomas J. Healey,https://en.wikipedia.org/wiki/Thomas_J._Healey,Goldman Sachs,,,,,,
+David B. Heller,https://en.wikipedia.org/wiki/David_B._Heller,Goldman Sachs,,,,,,
+Bruce Heyman,https://en.wikipedia.org/wiki/Bruce_Heyman,Goldman Sachs,,,,,,
+Bradford Higgins,https://en.wikipedia.org/wiki/Bradford_Higgins,Goldman Sachs,,,,,,
+Jim Himes,https://en.wikipedia.org/wiki/Jim_Himes,Goldman Sachs,,,,,,
+Jonathan Hirtle,https://en.wikipedia.org/wiki/Jonathan_Hirtle,Goldman Sachs,,,,,,
+Robert Hormats,https://en.wikipedia.org/wiki/Robert_Hormats,Goldman Sachs,,,,,,
+Chi-fu Huang,https://en.wikipedia.org/wiki/Chi-fu_Huang,Goldman Sachs,,,,,,
+Kazuo Inamori,https://en.wikipedia.org/wiki/Kazuo_Inamori,Goldman Sachs,,,,,,
+Otmar Issing,https://en.wikipedia.org/wiki/Otmar_Issing,Goldman Sachs,,,,,,
+Reuben Jeffery III,https://en.wikipedia.org/wiki/Reuben_Jeffery_III,Goldman Sachs,,,,,,
+Suzanne Nora Johnson,https://en.wikipedia.org/wiki/Suzanne_Nora_Johnson,Goldman Sachs,,,,,,
+Lois Juliber,https://en.wikipedia.org/wiki/Lois_Juliber,Goldman Sachs,,,,,,
+David Kabiller,https://en.wikipedia.org/wiki/David_Kabiller,Goldman Sachs,,,,,,
+Robert Steven Kaplan,https://en.wikipedia.org/wiki/Robert_Steven_Kaplan,Goldman Sachs,,,,,,
+Piotr Karasinski,https://en.wikipedia.org/wiki/Piotr_Karasinski,Goldman Sachs,,,,,,
+Neel Kashkari,https://en.wikipedia.org/wiki/Neel_Kashkari,Goldman Sachs,,,,,,
+Paul Kazarian,https://en.wikipedia.org/wiki/Paul_Kazarian,Goldman Sachs,,,,,,
+Prashant Khemka,https://en.wikipedia.org/wiki/Prashant_Khemka,Goldman Sachs,,,,,,
+Susan Kilsby,https://en.wikipedia.org/wiki/Susan_Kilsby,Goldman Sachs,,,,,,
+Ewan Kirk,https://en.wikipedia.org/wiki/Ewan_Kirk,Goldman Sachs,,,,,,
+Mary Kissel,https://en.wikipedia.org/wiki/Mary_Kissel,Goldman Sachs,,,,,,
+Sagiri Kitao,https://en.wikipedia.org/wiki/Sagiri_Kitao,Goldman Sachs,,,,,,
+Peter S. Kraus,https://en.wikipedia.org/wiki/Peter_S._Kraus,Goldman Sachs,,,,,,
+Joshua Kushner,https://en.wikipedia.org/wiki/Joshua_Kushner,Goldman Sachs,,,,,,
+Eddie Lampert,https://en.wikipedia.org/wiki/Eddie_Lampert,Goldman Sachs,,,,,,
+Andrew Law (financier),https://en.wikipedia.org/wiki/Andrew_Law_(financier),Goldman Sachs,,,,,,
+Lyndon Lea,https://en.wikipedia.org/wiki/Lyndon_Lea,Goldman Sachs,,,,,,
+Stephen D. Lebovitz,https://en.wikipedia.org/wiki/Stephen_D._Lebovitz,Goldman Sachs,,,,,,
+Tim Leissner,https://en.wikipedia.org/wiki/Tim_Leissner,Goldman Sachs,,,,,,
+Hugues Lepic,https://en.wikipedia.org/wiki/Hugues_Lepic,Goldman Sachs,,,,,,
+Gianni Letta,https://en.wikipedia.org/wiki/Gianni_Letta,Goldman Sachs,,,,,,
+Neil David Levin,https://en.wikipedia.org/wiki/Neil_David_Levin,Goldman Sachs,,,,,,
+Matt Levine (columnist),https://en.wikipedia.org/wiki/Matt_Levine_(columnist),Goldman Sachs,,,,,,
+Arthur Levitt,https://en.wikipedia.org/wiki/Arthur_Levitt,Goldman Sachs,,,,,,
+Gus Levy,https://en.wikipedia.org/wiki/Gus_Levy,Goldman Sachs,,,,,,
+Ed Liddy,https://en.wikipedia.org/wiki/Ed_Liddy,Goldman Sachs,,,,,,
+Robert Litterman,https://en.wikipedia.org/wiki/Robert_Litterman,Goldman Sachs,,,,,,
+Robert Litzenberger,https://en.wikipedia.org/wiki/Robert_Litzenberger,Goldman Sachs,,,,,,
+Amber Liu (tennis),https://en.wikipedia.org/wiki/Amber_Liu_(tennis),Goldman Sachs,,,,,,
+Liu Qing (businesswoman),https://en.wikipedia.org/wiki/Liu_Qing_(businesswoman),Goldman Sachs,,,,,,
+Klaus Luft,https://en.wikipedia.org/wiki/Klaus_Luft,Goldman Sachs,,,,,,
+Ian Macfarlane (economist),https://en.wikipedia.org/wiki/Ian_Macfarlane_(economist),Goldman Sachs,,,,,,
+Hugo MacNeill (rugby union),https://en.wikipedia.org/wiki/Hugo_MacNeill_(rugby_union),Goldman Sachs,,,,,,
+Clifton Maloney,https://en.wikipedia.org/wiki/Clifton_Maloney,Goldman Sachs,,,,,,
+Stephen Mandel (hedge fund manager),https://en.wikipedia.org/wiki/Stephen_Mandel_(hedge_fund_manager),Goldman Sachs,,,,,,
+James S. Marcus,https://en.wikipedia.org/wiki/James_S._Marcus,Goldman Sachs,,,,,,
+Brit Marling,https://en.wikipedia.org/wiki/Brit_Marling,Goldman Sachs,,,,,,
+Kathy Matsui,https://en.wikipedia.org/wiki/Kathy_Matsui,Goldman Sachs,,,,,,
+Tito Mboweni,https://en.wikipedia.org/wiki/Tito_Mboweni,Goldman Sachs,,,,,,
+Evan McMullin,https://en.wikipedia.org/wiki/Evan_McMullin,Goldman Sachs,,,,,,
+Scott Mead,https://en.wikipedia.org/wiki/Scott_Mead,Goldman Sachs,,,,,,
+Richard Menschel,https://en.wikipedia.org/wiki/Richard_Menschel,Goldman Sachs,,,,,,
+Robert Menschel,https://en.wikipedia.org/wiki/Robert_Menschel,Goldman Sachs,,,,,,
+Marc Mezvinsky,https://en.wikipedia.org/wiki/Marc_Mezvinsky,Goldman Sachs,,,,,,
+Andrea Miller (publisher),https://en.wikipedia.org/wiki/Andrea_Miller_(publisher),Goldman Sachs,,,,,,
+Megha Mittal,https://en.wikipedia.org/wiki/Megha_Mittal,Goldman Sachs,,,,,,
+Robert Mnuchin,https://en.wikipedia.org/wiki/Robert_Mnuchin,Goldman Sachs,,,,,,
+Steven Mnuchin,https://en.wikipedia.org/wiki/Steven_Mnuchin,Goldman Sachs,,,,,,
+Carlos Moedas,https://en.wikipedia.org/wiki/Carlos_Moedas,Goldman Sachs,,,,,,
+Mario Monti,https://en.wikipedia.org/wiki/Mario_Monti,Goldman Sachs,,,,,,
+Shea Morenz,https://en.wikipedia.org/wiki/Shea_Morenz,Goldman Sachs,,,,,,
+R. Scott Morris,https://en.wikipedia.org/wiki/R._Scott_Morris,Goldman Sachs,,,,,,
+"Dambisa Moyo, Baroness Moyo","https://en.wikipedia.org/wiki/Dambisa_Moyo,_Baroness_Moyo",Goldman Sachs,,,,,,
+Phil Murphy,https://en.wikipedia.org/wiki/Phil_Murphy,Goldman Sachs,,,,,,
+Tammy Murphy,https://en.wikipedia.org/wiki/Tammy_Murphy,Goldman Sachs,,,,,,
+Ben Navarro,https://en.wikipedia.org/wiki/Ben_Navarro,Goldman Sachs,,,,,,
+Duncan L. Niederauer,https://en.wikipedia.org/wiki/Duncan_L._Niederauer,Goldman Sachs,,,,,,
+Michael Novogratz,https://en.wikipedia.org/wiki/Michael_Novogratz,Goldman Sachs,,,,,,
+Daniel Och,https://en.wikipedia.org/wiki/Daniel_Och,Goldman Sachs,,,,,,
+"Jim O'Neill, Baron O'Neill of Gatley","https://en.wikipedia.org/wiki/Jim_O%27Neill,_Baron_O%27Neill_of_Gatley",Goldman Sachs,,,,,,
+Richard Ong,https://en.wikipedia.org/wiki/Richard_Ong,Goldman Sachs,,,,,,
+Peter C. Oppenheimer,https://en.wikipedia.org/wiki/Peter_C._Oppenheimer,Goldman Sachs,,,,,,
+Ilario Pantano,https://en.wikipedia.org/wiki/Ilario_Pantano,Goldman Sachs,,,,,,
+Mark A. Patterson,https://en.wikipedia.org/wiki/Mark_A._Patterson,Goldman Sachs,,,,,,
+Stephen Peel,https://en.wikipedia.org/wiki/Stephen_Peel,Goldman Sachs,,,,,,
+Terren Peizer,https://en.wikipedia.org/wiki/Terren_Peizer,Goldman Sachs,,,,,,
+Zach Pfeffer,https://en.wikipedia.org/wiki/Zach_Pfeffer,Goldman Sachs,,,,,,
+Huw Pill,https://en.wikipedia.org/wiki/Huw_Pill,Goldman Sachs,,,,,,
+Laurene Powell Jobs,https://en.wikipedia.org/wiki/Laurene_Powell_Jobs,Goldman Sachs,,,,,,
+Dina Powell,https://en.wikipedia.org/wiki/Dina_Powell,Goldman Sachs,,,,,,
+Romano Prodi,https://en.wikipedia.org/wiki/Romano_Prodi,Goldman Sachs,,,,,,
+Mina Radhakrishnan,https://en.wikipedia.org/wiki/Mina_Radhakrishnan,Goldman Sachs,,,,,,
+Karthik Ramanathan,https://en.wikipedia.org/wiki/Karthik_Ramanathan,Goldman Sachs,,,,,,
+Robert Reffkin,https://en.wikipedia.org/wiki/Robert_Reffkin,Goldman Sachs,,,,,,
+Courtney Reum,https://en.wikipedia.org/wiki/Courtney_Reum,Goldman Sachs,,,,,,
+Thomas L. Rhodes,https://en.wikipedia.org/wiki/Thomas_L._Rhodes,Goldman Sachs,,,,,,
+Simon Robertson,https://en.wikipedia.org/wiki/Simon_Robertson,Goldman Sachs,,,,,,
+Victoria Robey,https://en.wikipedia.org/wiki/Victoria_Robey,Goldman Sachs,,,,,,
+John F. W. Rogers,https://en.wikipedia.org/wiki/John_F._W._Rogers,Goldman Sachs,,,,,,
+Chris Rokos,https://en.wikipedia.org/wiki/Chris_Rokos,Goldman Sachs,,,,,,
+Xavier Rolet,https://en.wikipedia.org/wiki/Xavier_Rolet,Goldman Sachs,,,,,,
+Eileen Rominger,https://en.wikipedia.org/wiki/Eileen_Rominger,Goldman Sachs,,,,,,
+Jack Ryan (politician),https://en.wikipedia.org/wiki/Jack_Ryan_(politician),Goldman Sachs,,,,,,
+Swati Mia Saini,https://en.wikipedia.org/wiki/Swati_Mia_Saini,Goldman Sachs,,,,,,
+List of former employees of McKinsey & Company,https://en.wikipedia.org/wiki/List_of_former_employees_of_McKinsey_%26_Company,McKinsey & Company,,,,,,
+Iman Abuzeid,https://en.wikipedia.org/wiki/Iman_Abuzeid,McKinsey & Company,,,,,,
+Vikram Akula,https://en.wikipedia.org/wiki/Vikram_Akula,McKinsey & Company,,,,,,
+Imran Amed,https://en.wikipedia.org/wiki/Imran_Amed,McKinsey & Company,,,,,,
+Paul Antony,https://en.wikipedia.org/wiki/Paul_Antony,McKinsey & Company,,,,,,
+Mahlon Apgar IV,https://en.wikipedia.org/wiki/Mahlon_Apgar_IV,McKinsey & Company,,,,,,
+Frank Appel,https://en.wikipedia.org/wiki/Frank_Appel,McKinsey & Company,,,,,,
+Delphine Arnault,https://en.wikipedia.org/wiki/Delphine_Arnault,McKinsey & Company,,,,,,
+Azran Osman Rani,https://en.wikipedia.org/wiki/Azran_Osman_Rani,McKinsey & Company,,,,,,
+Martin Neil Baily,https://en.wikipedia.org/wiki/Martin_Neil_Baily,McKinsey & Company,,,,,,
+Carter F. Bales,https://en.wikipedia.org/wiki/Carter_F._Bales,McKinsey & Company,,,,,,
+John Banham,https://en.wikipedia.org/wiki/John_Banham,McKinsey & Company,,,,,,
+Mahmoud Reza Banki,https://en.wikipedia.org/wiki/Mahmoud_Reza_Banki,McKinsey & Company,,,,,,
+Bengt Baron,https://en.wikipedia.org/wiki/Bengt_Baron,McKinsey & Company,,,,,,
+Dominic Barton,https://en.wikipedia.org/wiki/Dominic_Barton,McKinsey & Company,,,,,,
+Oliver B√§te,https://en.wikipedia.org/wiki/Oliver_B%C3%A4te,McKinsey & Company,,,,,,
+Scott C. Beardsley,https://en.wikipedia.org/wiki/Scott_C._Beardsley,McKinsey & Company,,,,,,
+David Bennett (consultant),https://en.wikipedia.org/wiki/David_Bennett_(consultant),McKinsey & Company,,,,,,
+Bradley M. Berkson,https://en.wikipedia.org/wiki/Bradley_M._Berkson,McKinsey & Company,,,,,,
+Wolfgang Bernhard,https://en.wikipedia.org/wiki/Wolfgang_Bernhard,McKinsey & Company,,,,,,
+"John Birt, Baron Birt","https://en.wikipedia.org/wiki/John_Birt,_Baron_Birt",McKinsey & Company,,,,,,
+Rufus Black,https://en.wikipedia.org/wiki/Rufus_Black,McKinsey & Company,,,,,,
+Martin Blessing,https://en.wikipedia.org/wiki/Martin_Blessing,McKinsey & Company,,,,,,
+Laszlo Bock,https://en.wikipedia.org/wiki/Laszlo_Bock,McKinsey & Company,,,,,,
+Andr√© Borschberg,https://en.wikipedia.org/wiki/Andr%C3%A9_Borschberg,McKinsey & Company,,,,,,
+Marvin Bower,https://en.wikipedia.org/wiki/Marvin_Bower,McKinsey & Company,,,,,,
+Lael Brainard,https://en.wikipedia.org/wiki/Lael_Brainard,McKinsey & Company,,,,,,
+Esther Brimmer,https://en.wikipedia.org/wiki/Esther_Brimmer,McKinsey & Company,,,,,,
+Robert Brisco,https://en.wikipedia.org/wiki/Robert_Brisco,McKinsey & Company,,,,,,
+Matt Brittin,https://en.wikipedia.org/wiki/Matt_Brittin,McKinsey & Company,,,,,,
+Shona Brown,https://en.wikipedia.org/wiki/Shona_Brown,McKinsey & Company,,,,,,
+Mary Burke,https://en.wikipedia.org/wiki/Mary_Burke,McKinsey & Company,,,,,,
+Sylvia Mathews Burwell,https://en.wikipedia.org/wiki/Sylvia_Mathews_Burwell,McKinsey & Company,,,,,,
+Pete Buttigieg,https://en.wikipedia.org/wiki/Pete_Buttigieg,McKinsey & Company,,,,,,
+Adam Cahan,https://en.wikipedia.org/wiki/Adam_Cahan,McKinsey & Company,,,,,,
+Francesco Caio,https://en.wikipedia.org/wiki/Francesco_Caio,McKinsey & Company,,,,,,
+Gabe Camarillo,https://en.wikipedia.org/wiki/Gabe_Camarillo,McKinsey & Company,,,,,,
+Roderick Carnegie,https://en.wikipedia.org/wiki/Roderick_Carnegie,McKinsey & Company,,,,,,
+Natalie Ceeney,https://en.wikipedia.org/wiki/Natalie_Ceeney,McKinsey & Company,,,,,,
+Victor Cheng,https://en.wikipedia.org/wiki/Victor_Cheng,McKinsey & Company,,,,,,
+Eric Chewning,https://en.wikipedia.org/wiki/Eric_Chewning,McKinsey & Company,,,,,,
+Rohit Chopra,https://en.wikipedia.org/wiki/Rohit_Chopra,McKinsey & Company,,,,,,
+David Churbuck,https://en.wikipedia.org/wiki/David_Churbuck,McKinsey & Company,,,,,,
+Chelsea Clinton,https://en.wikipedia.org/wiki/Chelsea_Clinton,McKinsey & Company,,,,,,
+Humphrey Cobbold,https://en.wikipedia.org/wiki/Humphrey_Cobbold,McKinsey & Company,,,,,,
+Ronald Mourad Cohen,https://en.wikipedia.org/wiki/Ronald_Mourad_Cohen,McKinsey & Company,,,,,,
+Matt Cohler,https://en.wikipedia.org/wiki/Matt_Cohler,McKinsey & Company,,,,,,
+Vittorio Colao,https://en.wikipedia.org/wiki/Vittorio_Colao,McKinsey & Company,,,,,,
+James C. Collins,https://en.wikipedia.org/wiki/James_C._Collins,McKinsey & Company,,,,,,
+Charles R. Conn,https://en.wikipedia.org/wiki/Charles_R._Conn,McKinsey & Company,,,,,,
+Bjarne Corydon,https://en.wikipedia.org/wiki/Bjarne_Corydon,McKinsey & Company,,,,,,
+Tom Cotton,https://en.wikipedia.org/wiki/Tom_Cotton,McKinsey & Company,,,,,,
+Jim Coutts,https://en.wikipedia.org/wiki/Jim_Coutts,McKinsey & Company,,,,,,
+Richard Currie,https://en.wikipedia.org/wiki/Richard_Currie,McKinsey & Company,,,,,,
+Ron Daniel,https://en.wikipedia.org/wiki/Ron_Daniel,McKinsey & Company,,,,,,
+Tony Danker,https://en.wikipedia.org/wiki/Tony_Danker,McKinsey & Company,,,,,,
+Oleksandr Danylyuk,https://en.wikipedia.org/wiki/Oleksandr_Danylyuk,McKinsey & Company,,,,,,
+Howard Davies (economist),https://en.wikipedia.org/wiki/Howard_Davies_(economist),McKinsey & Company,,,,,,
+Ian Davis (businessman),https://en.wikipedia.org/wiki/Ian_Davis_(businessman),McKinsey & Company,,,,,,
+Steve Davis (business),https://en.wikipedia.org/wiki/Steve_Davis_(business),McKinsey & Company,,,,,,
+Julian C. Day,https://en.wikipedia.org/wiki/Julian_C._Day,McKinsey & Company,,,,,,
+Henrique De Castro,https://en.wikipedia.org/wiki/Henrique_De_Castro,McKinsey & Company,,,,,,
+Etienne de Villiers,https://en.wikipedia.org/wiki/Etienne_de_Villiers,McKinsey & Company,,,,,,
+Dan Debicella,https://en.wikipedia.org/wiki/Dan_Debicella,McKinsey & Company,,,,,,
+Isabel Dedring,https://en.wikipedia.org/wiki/Isabel_Dedring,McKinsey & Company,,,,,,
+Bo≈æidar ƒêeliƒá,https://en.wikipedia.org/wiki/Bo%C5%BEidar_%C4%90eli%C4%87,McKinsey & Company,,,,,,
+Maya DiRado,https://en.wikipedia.org/wiki/Maya_DiRado,McKinsey & Company,,,,,,
+Stephen Donnelly,https://en.wikipedia.org/wiki/Stephen_Donnelly,McKinsey & Company,,,,,,
+Bill Drayton,https://en.wikipedia.org/wiki/Bill_Drayton,McKinsey & Company,,,,,,
+Angela Duckworth,https://en.wikipedia.org/wiki/Angela_Duckworth,McKinsey & Company,,,,,,
+David Carl Edelman,https://en.wikipedia.org/wiki/David_Carl_Edelman,McKinsey & Company,,,,,,
+John Elliott (businessman),https://en.wikipedia.org/wiki/John_Elliott_(businessman),McKinsey & Company,,,,,,
+Erik Engstr√∂m,https://en.wikipedia.org/wiki/Erik_Engstr%C3%B6m,McKinsey & Company,,,,,,
+Carolyn Fairbairn,https://en.wikipedia.org/wiki/Carolyn_Fairbairn,McKinsey & Company,,,,,,
+Diana Farrell,https://en.wikipedia.org/wiki/Diana_Farrell,McKinsey & Company,,,,,,
+Roger W. Ferguson Jr.,https://en.wikipedia.org/wiki/Roger_W._Ferguson_Jr.,McKinsey & Company,,,,,,
+Bernard T. Ferrari,https://en.wikipedia.org/wiki/Bernard_T._Ferrari,McKinsey & Company,,,,,,
+Thomas C. Foley,https://en.wikipedia.org/wiki/Thomas_C._Foley,McKinsey & Company,,,,,,
+Richard N. Foster,https://en.wikipedia.org/wiki/Richard_N._Foster,McKinsey & Company,,,,,,
+Jane Fraser (executive),https://en.wikipedia.org/wiki/Jane_Fraser_(executive),McKinsey & Company,,,,,,
+Sarah Friar,https://en.wikipedia.org/wiki/Sarah_Friar,McKinsey & Company,,,,,,
+David Fubini,https://en.wikipedia.org/wiki/David_Fubini,McKinsey & Company,,,,,,
+Robert C. Gay,https://en.wikipedia.org/wiki/Robert_C._Gay,McKinsey & Company,,,,,,
+Lou Gerstner,https://en.wikipedia.org/wiki/Lou_Gerstner,McKinsey & Company,,,,,,
+Shuman Ghosemajumder,https://en.wikipedia.org/wiki/Shuman_Ghosemajumder,McKinsey & Company,,,,,,
+Caroline Ghosn,https://en.wikipedia.org/wiki/Caroline_Ghosn,McKinsey & Company,,,,,,
+George N. Gillett Jr.,https://en.wikipedia.org/wiki/George_N._Gillett_Jr.,McKinsey & Company,,,,,,
+Harvey Golub,https://en.wikipedia.org/wiki/Harvey_Golub,McKinsey & Company,,,,,,
+Chris Goodall,https://en.wikipedia.org/wiki/Chris_Goodall,McKinsey & Company,,,,,,
+James P. Gorman,https://en.wikipedia.org/wiki/James_P._Gorman,McKinsey & Company,,,,,,
+Mario Greco,https://en.wikipedia.org/wiki/Mario_Greco,McKinsey & Company,,,,,,
+"Stephen Green, Baron Green of Hurstpierpoint","https://en.wikipedia.org/wiki/Stephen_Green,_Baron_Green_of_Hurstpierpoint",McKinsey & Company,,,,,,
+Robert G. Greenhill,https://en.wikipedia.org/wiki/Robert_G._Greenhill,McKinsey & Company,,,,,,
+Francesco Grillo,https://en.wikipedia.org/wiki/Francesco_Grillo,McKinsey & Company,,,,,,
+Rajat Gupta,https://en.wikipedia.org/wiki/Rajat_Gupta,McKinsey & Company,,,,,,
+Doug Gurr,https://en.wikipedia.org/wiki/Doug_Gurr,McKinsey & Company,,,,,,
+Bob Haas,https://en.wikipedia.org/wiki/Bob_Haas,McKinsey & Company,,,,,,
+John Hagel III,https://en.wikipedia.org/wiki/John_Hagel_III,McKinsey & Company,,,,,,
+Torstein Hagen,https://en.wikipedia.org/wiki/Torstein_Hagen,McKinsey & Company,,,,,,
+William Hague,https://en.wikipedia.org/wiki/William_Hague,McKinsey & Company,,,,,,
+Gerd Hahn,https://en.wikipedia.org/wiki/Gerd_Hahn,McKinsey & Company,,,,,,
+Mohsin Hamid,https://en.wikipedia.org/wiki/Mohsin_Hamid,McKinsey & Company,,,,,,
+Dido Harding,https://en.wikipedia.org/wiki/Dido_Harding,McKinsey & Company,,,,,,
+Tom Hayhoe,https://en.wikipedia.org/wiki/Tom_Hayhoe,McKinsey & Company,,,,,,
+David B. Hertz,https://en.wikipedia.org/wiki/David_B._Hertz,McKinsey & Company,,,,,,
+Suzanne Heywood,https://en.wikipedia.org/wiki/Suzanne_Heywood,McKinsey & Company,,,,,,
+Fred Hilmer,https://en.wikipedia.org/wiki/Fred_Hilmer,McKinsey & Company,,,,,,
+Wopke Hoekstra,https://en.wikipedia.org/wiki/Wopke_Hoekstra,McKinsey & Company,,,,,,
+Kathleen Hogan,https://en.wikipedia.org/wiki/Kathleen_Hogan,McKinsey & Company,,,,,,
+Charlotte Hogg,https://en.wikipedia.org/wiki/Charlotte_Hogg,McKinsey & Company,,,,,,
+Egil Hogna,https://en.wikipedia.org/wiki/Egil_Hogna,McKinsey & Company,,,,,,
+Betsy Holden,https://en.wikipedia.org/wiki/Betsy_Holden,McKinsey & Company,,,,,,
+Amy Howe,https://en.wikipedia.org/wiki/Amy_Howe,McKinsey & Company,,,,,,
+Wendell Hulcher,https://en.wikipedia.org/wiki/Wendell_Hulcher,McKinsey & Company,,,,,,
+Reed Hundt,https://en.wikipedia.org/wiki/Reed_Hundt,McKinsey & Company,,,,,,
+Greg Hunt,https://en.wikipedia.org/wiki/Greg_Hunt,McKinsey & Company,,,,,,
+Vivian Hunt,https://en.wikipedia.org/wiki/Vivian_Hunt,McKinsey & Company,,,,,,
+Yukio Ishizuka,https://en.wikipedia.org/wiki/Yukio_Ishizuka,McKinsey & Company,,,,,,
+Kenneth E. Iverson,https://en.wikipedia.org/wiki/Kenneth_E._Iverson,McKinsey & Company,,,,,,
+Eric Janvier,https://en.wikipedia.org/wiki/Eric_Janvier,McKinsey & Company,,,,,,
+Radovan Jela≈°iƒá,https://en.wikipedia.org/wiki/Radovan_Jela%C5%A1i%C4%87,McKinsey & Company,,,,,,
+Marcien Jenckes,https://en.wikipedia.org/wiki/Marcien_Jenckes,McKinsey & Company,,,,,,
+Bobby Jindal,https://en.wikipedia.org/wiki/Bobby_Jindal,McKinsey & Company,,,,,,
+Hubert Joly,https://en.wikipedia.org/wiki/Hubert_Joly,McKinsey & Company,,,,,,
+Aditya Julka,https://en.wikipedia.org/wiki/Aditya_Julka,McKinsey & Company,,,,,,
+Kazuyo Katsuma,https://en.wikipedia.org/wiki/Kazuyo_Katsuma,McKinsey & Company,,,,,,
+Markus Kattner,https://en.wikipedia.org/wiki/Markus_Kattner,McKinsey & Company,,,,,,
+Jon Katzenbach,https://en.wikipedia.org/wiki/Jon_Katzenbach,McKinsey & Company,,,,,,
+Andrew Thomas Kearney,https://en.wikipedia.org/wiki/Andrew_Thomas_Kearney,McKinsey & Company,,,,,,
+Hosein Khajeh-Hosseiny,https://en.wikipedia.org/wiki/Hosein_Khajeh-Hosseiny,McKinsey & Company,,,,,,
+Nancy Killefer,https://en.wikipedia.org/wiki/Nancy_Killefer,McKinsey & Company,,,,,,
+Susanne Klatten,https://en.wikipedia.org/wiki/Susanne_Klatten,McKinsey & Company,,,,,,
+Marius Kloppers,https://en.wikipedia.org/wiki/Marius_Kloppers,McKinsey & Company,,,,,,
+J√∏rgen Vig Knudstorp,https://en.wikipedia.org/wiki/J%C3%B8rgen_Vig_Knudstorp,McKinsey & Company,,,,,,
+Nataly Kogan,https://en.wikipedia.org/wiki/Nataly_Kogan,McKinsey & Company,,,,,,
+Melanie Kreis,https://en.wikipedia.org/wiki/Melanie_Kreis,McKinsey & Company,,,,,,
+Lazar Krstiƒá,https://en.wikipedia.org/wiki/Lazar_Krsti%C4%87,McKinsey & Company,,,,,,
+Anil Kumar,https://en.wikipedia.org/wiki/Anil_Kumar,McKinsey & Company,,,,,,
+Thomas Kurian,https://en.wikipedia.org/wiki/Thomas_Kurian,McKinsey & Company,,,,,,
+Yul Kwon,https://en.wikipedia.org/wiki/Yul_Kwon,McKinsey & Company,,,,,,
+Phil Lapsley,https://en.wikipedia.org/wiki/Phil_Lapsley,McKinsey & Company,,,,,,
+Emily Lawson,https://en.wikipedia.org/wiki/Emily_Lawson,McKinsey & Company,,,,,,
+Georgia Lee (director),https://en.wikipedia.org/wiki/Georgia_Lee_(director),McKinsey & Company,,,,,,
+Kewsong Lee,https://en.wikipedia.org/wiki/Kewsong_Lee,McKinsey & Company,,,,,,
+Mark Leiter (businessman),https://en.wikipedia.org/wiki/Mark_Leiter_(businessman),McKinsey & Company,,,,,,
+Tom Leppert,https://en.wikipedia.org/wiki/Tom_Leppert,McKinsey & Company,,,,,,
+Jeremy Liew,https://en.wikipedia.org/wiki/Jeremy_Liew,McKinsey & Company,,,,,,
+Jeff Luhnow,https://en.wikipedia.org/wiki/Jeff_Luhnow,McKinsey & Company,,,,,,
+Helge Lund,https://en.wikipedia.org/wiki/Helge_Lund,McKinsey & Company,,,,,,
+John D. Macomber,https://en.wikipedia.org/wiki/John_D._Macomber,McKinsey & Company,,,,,,
+√Åslaug Magn√∫sd√≥ttir,https://en.wikipedia.org/wiki/%C3%81slaug_Magn%C3%BAsd%C3%B3ttir,McKinsey & Company,,,,,,
+Fred Malek,https://en.wikipedia.org/wiki/Fred_Malek,McKinsey & Company,,,,,,
+John C. Malone,https://en.wikipedia.org/wiki/John_C._Malone,McKinsey & Company,,,,,,
+James Manyika,https://en.wikipedia.org/wiki/James_Manyika,McKinsey & Company,,,,,,
+Jim Manzi,https://en.wikipedia.org/wiki/Jim_Manzi,McKinsey & Company,,,,,,
+Jack Markell,https://en.wikipedia.org/wiki/Jack_Markell,McKinsey & Company,,,,,,
+Gerrit Marx,https://en.wikipedia.org/wiki/Gerrit_Marx,McKinsey & Company,,,,,,
+David McCormick,https://en.wikipedia.org/wiki/David_McCormick,McKinsey & Company,,,,,,
+Alonzo L. McDonald,https://en.wikipedia.org/wiki/Alonzo_L._McDonald,McKinsey & Company,,,,,,
+James O. McKinsey,https://en.wikipedia.org/wiki/James_O._McKinsey,McKinsey & Company,,,,,,
+James McNerney,https://en.wikipedia.org/wiki/James_McNerney,McKinsey & Company,,,,,,
+Kip Meek,https://en.wikipedia.org/wiki/Kip_Meek,McKinsey & Company,,,,,,
+Karen Mills,https://en.wikipedia.org/wiki/Karen_Mills,McKinsey & Company,,,,,,
+Kathryn Minshew,https://en.wikipedia.org/wiki/Kathryn_Minshew,McKinsey & Company,,,,,,
+Kyriakos Mitsotakis,https://en.wikipedia.org/wiki/Kyriakos_Mitsotakis,McKinsey & Company,,,,,,
+Ajit Mohan,https://en.wikipedia.org/wiki/Ajit_Mohan,McKinsey & Company,,,,,,
+Toshimitsu Motegi,https://en.wikipedia.org/wiki/Toshimitsu_Motegi,McKinsey & Company,,,,,,
+Deanna M. Mulligan,https://en.wikipedia.org/wiki/Deanna_M._Mulligan,McKinsey & Company,,,,,,
+Sarah Munby,https://en.wikipedia.org/wiki/Sarah_Munby,McKinsey & Company,,,,,,
+Arthur Mutambara,https://en.wikipedia.org/wiki/Arthur_Mutambara,McKinsey & Company,,,,,,
+Lavanya Nalli,https://en.wikipedia.org/wiki/Lavanya_Nalli,McKinsey & Company,,,,,,
+Tomoko Namba,https://en.wikipedia.org/wiki/Tomoko_Namba,McKinsey & Company,,,,,,
+Laxman Narasimhan,https://en.wikipedia.org/wiki/Laxman_Narasimhan,McKinsey & Company,,,,,,
+Meghana Narayan,https://en.wikipedia.org/wiki/Meghana_Narayan,McKinsey & Company,,,,,,
+Ian Narev,https://en.wikipedia.org/wiki/Ian_Narev,McKinsey & Company,,,,,,
+Dina Nayeri,https://en.wikipedia.org/wiki/Dina_Nayeri,McKinsey & Company,,,,,,
+Naheed Nenshi,https://en.wikipedia.org/wiki/Naheed_Nenshi,McKinsey & Company,,,,,,
+Thanh Nghiem,https://en.wikipedia.org/wiki/Thanh_Nghiem,McKinsey & Company,,,,,,
+Roberto Nicastro,https://en.wikipedia.org/wiki/Roberto_Nicastro,McKinsey & Company,,,,,,
+Nicholas Ma,https://en.wikipedia.org/wiki/Nicholas_Ma,McKinsey & Company,,,,,,
+Charlie Nunn,https://en.wikipedia.org/wiki/Charlie_Nunn,McKinsey & Company,,,,,,
+Kenichi Ohmae,https://en.wikipedia.org/wiki/Kenichi_Ohmae,McKinsey & Company,,,,,,
+Greg Orman,https://en.wikipedia.org/wiki/Greg_Orman,McKinsey & Company,,,,,,
+Peter R. Orszag,https://en.wikipedia.org/wiki/Peter_R._Orszag,McKinsey & Company,,,,,,
+Svein Harald √òygard,https://en.wikipedia.org/wiki/Svein_Harald_%C3%98ygard,McKinsey & Company,,,,,,
+David Palecek,https://en.wikipedia.org/wiki/David_Palecek,McKinsey & Company,,,,,,
+Helmut Panke,https://en.wikipedia.org/wiki/Helmut_Panke,McKinsey & Company,,,,,,
+Roger Parry,https://en.wikipedia.org/wiki/Roger_Parry,McKinsey & Company,,,,,,
+Corrado Passera,https://en.wikipedia.org/wiki/Corrado_Passera,McKinsey & Company,,,,,,
+Prashant Pathak,https://en.wikipedia.org/wiki/Prashant_Pathak,McKinsey & Company,,,,,,
+Michael Patsalos-Fox,https://en.wikipedia.org/wiki/Michael_Patsalos-Fox,McKinsey & Company,,,,,,
+J. Michael Pearson,https://en.wikipedia.org/wiki/J._Michael_Pearson,McKinsey & Company,,,,,,
+John Penrose,https://en.wikipedia.org/wiki/John_Penrose,McKinsey & Company,,,,,,
+Edgar Perez,https://en.wikipedia.org/wiki/Edgar_Perez,McKinsey & Company,,,,,,
+Tom Peters,https://en.wikipedia.org/wiki/Tom_Peters,McKinsey & Company,,,,,,
+Chris Philp,https://en.wikipedia.org/wiki/Chris_Philp,McKinsey & Company,,,,,,
+Sundar Pichai,https://en.wikipedia.org/wiki/Sundar_Pichai,McKinsey & Company,,,,,,
+Patrick Pichette,https://en.wikipedia.org/wiki/Patrick_Pichette,McKinsey & Company,,,,,,
+Alejandro Plaz,https://en.wikipedia.org/wiki/Alejandro_Plaz,McKinsey & Company,,,,,,
+Joris Poort,https://en.wikipedia.org/wiki/Joris_Poort,McKinsey & Company,,,,,,
